@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <input type="Recherche">
+    <div class="weather-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Rechercher...">
+            <button type="button" onclick="performSearch()">Rechercher</button>
+        </div>
+    
+        <div id="searchResults">
+            <!-- Les résultats de recherche seront affichés ici -->
+        </div>
+        <h1>Prévisions Météo</h1>
+        <div class="location">
+            <h2>Dakar, Senegal</h2>
+        </div>
+        <div class="weather-info">
+            <p>Température: <span id="temperature"></span>5°C</p>
+            <p>Chaud : Température élevée, provoquant souvent une sensation de chaleur, généralement au-dessus de vingt-cinq degrés Celsius.
+
+                : <span id="description"></span></p>
+               
+        </div>
+    </div>
+
+    <script src="styles.js"></script>
+</body>
+</html>
